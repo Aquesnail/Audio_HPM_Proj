@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HPM_footprints")(type "KiCad")(uri "G:/Project/Audio_Test/Hardware/ProjLib/HPMLIB20251229/HPM_LIB_20251229/HPM_footprints.pretty")(options "")(descr ""))
+)
