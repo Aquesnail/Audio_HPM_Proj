@@ -5,6 +5,727 @@
 	(uuid "c78f527e-50e7-4d88-85be-617fff285b50")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Audio:ES9039Q2M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.286 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Audio IC, 2-Channel DAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ES9039Q2M_1_0"
+				(pin power_in line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -1.27 0)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "AVCC_DAC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "AGND_DAC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -8.89 0)
+					(length 2.54)
+					(name "AGND_DAC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -11.43 0)
+					(length 2.54)
+					(name "AVCC_DAC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -1.27 180)
+					(length 2.54)
+					(name "GND_PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ES9039Q2M_1_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 11.43 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ES9039Q2M\n"
+					(at 0 13.97 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "ES9039Q2M_2_0"
+				(pin input line
+					(at -17.78 11.43 0)
+					(length 2.54)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 8.89 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "MISO/ADDR0/MUTE_CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 3.81 0)
+					(length 2.54)
+					(name "SS/ADDR1/HW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 1.27 0)
+					(length 2.54)
+					(name "MOSI/SDA/HW0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -1.27 0)
+					(length 2.54)
+					(name "SCLK/SCL/HW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -3.81 0)
+					(length 2.54)
+					(name "DATA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "DATA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -8.89 0)
+					(length 2.54)
+					(name "DATA_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "RT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "CHIP_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ES9039Q2M_2_1"
+				(rectangle
+					(start -15.24 15.24)
+					(end 15.24 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ES9039Q2M\n"
+					(at 0.254 16.51 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "ES9039Q2M_3_0"
+				(pin passive line
+					(at -11.43 8.89 0)
+					(length 2.54)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 0)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "DAC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -13.97 0)
+					(length 2.54)
+					(name "DAC1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -16.51 0)
+					(length 2.54)
+					(name "DAC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -19.05 0)
+					(length 2.54)
+					(name "DAC2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ES9039Q2M_3_1"
+				(rectangle
+					(start -8.89 11.43)
+					(end 10.16 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ES9039Q2M\n"
+					(at 0.254 12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2770,6 +3491,576 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ProPrj_Converter_2026-03-10:SY8368QNC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProPrj_Converter_2026-03-10:QFN-10_L3.0-W3.0-P0.45-TL_SILERGY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/SY8368QNC/137177.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SY8368QNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Silergy(矽力杰)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C125897"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "高效同步降压DC-DC调节器"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SY8368QNC_1_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "ILMT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "VC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "BS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:TPS74801DRC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS74801DRC"
+				(at 7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps74801.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments 1.5A, Low-Dropout Linear Regulator With Programmable Soft-Start, 0.8-5.5Vin, 2.7-6.0Vbias, 0.8-3.6Vout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "regulator LDO positive adjustable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSON*EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS74801DRC_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS74801DRC_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4250,6 +5541,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio:ES9039Q2M")
+		(at 55.88 134.62 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1372f8b5-669e-4a83-9516-fb264238afbf")
+		(property "Reference" "U2"
+			(at 67.31 137.9191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 140.4591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm"
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "d791b108-8d3d-417f-abc7-cf0f31a6dd68")
+		)
+		(pin "13"
+			(uuid "67b8097a-d150-4104-9179-2001c0771b30")
+		)
+		(pin "25"
+			(uuid "7446ea33-9f29-4101-a559-354015633228")
+		)
+		(pin "23"
+			(uuid "7efd0db8-bc66-48f0-aae6-b1be5d2adef5")
+		)
+		(pin "31"
+			(uuid "945c6741-96db-465d-ba61-e4a315889264")
+		)
+		(pin "29"
+			(uuid "cf8c02d2-f35e-4c82-95aa-ddae8ad3a9fa")
+		)
+		(pin "15"
+			(uuid "944a21f5-0e0f-49d7-af2a-6fd4367e95cb")
+		)
+		(pin "30"
+			(uuid "dd59e332-d977-4fa3-995d-a26a93c3477f")
+		)
+		(pin "6"
+			(uuid "84417870-06da-4c7d-b2da-c44c93860d9f")
+		)
+		(pin "32"
+			(uuid "9f40262c-1789-406d-8899-a68fa820d047")
+		)
+		(pin "5"
+			(uuid "8ce77097-fb90-4930-87de-a29ad0937355")
+		)
+		(pin "1"
+			(uuid "29f184dd-cb5e-498f-ba8f-bad816046ba4")
+		)
+		(pin "20"
+			(uuid "34af85a0-73a2-45fa-abdf-39e6fb587bbe")
+		)
+		(pin "12"
+			(uuid "14b8b625-2f2d-41d2-b90b-5d2cebf92d21")
+		)
+		(pin "19"
+			(uuid "d9872cfb-9a17-454e-a1a5-156613ceb9f0")
+		)
+		(pin "10"
+			(uuid "0cc7e853-8c82-433a-9fb6-8e1aa3c263e8")
+		)
+		(pin "8"
+			(uuid "d25f4285-88a0-4b5c-9008-65b4855857b5")
+		)
+		(pin "9"
+			(uuid "0632d49b-64bf-43ee-bb6a-01c0e6b408f7")
+		)
+		(pin "17"
+			(uuid "53240056-17e5-4b6a-aa6e-49c23621c495")
+		)
+		(pin "33"
+			(uuid "a8380d65-7f39-46b7-84c1-34d2a5cf63cb")
+		)
+		(pin "4"
+			(uuid "eccce5ad-3856-40bc-b41d-83839694e46c")
+		)
+		(pin "18"
+			(uuid "981dc72b-2a1c-49d2-b76f-f206b2c8dcf6")
+		)
+		(pin "11"
+			(uuid "be654210-1f99-4178-80e7-f1a137577271")
+		)
+		(pin "16"
+			(uuid "e65d80cf-4b1c-4e8a-b3b4-08ec17bc9daf")
+		)
+		(pin "14"
+			(uuid "f1934bd3-63de-402f-a11c-09d36a4ee43f")
+		)
+		(pin "27"
+			(uuid "57c76688-9933-4aa9-ac86-e2e0833fb2df")
+		)
+		(pin "26"
+			(uuid "35ba9102-29f7-421e-9456-743dd06b1ca8")
+		)
+		(pin "24"
+			(uuid "2266a57c-561c-4407-81e0-f8c8b7b8e0ba")
+		)
+		(pin "22"
+			(uuid "8c1f688a-a64a-4b7d-87fd-6c2990dc64fe")
+		)
+		(pin "21"
+			(uuid "e8180ea1-64ff-4ba4-9d0c-827f47ec4418")
+		)
+		(pin "3"
+			(uuid "14fd9e72-8515-4513-aad0-207137fce188")
+		)
+		(pin "2"
+			(uuid "71fc2062-891f-4a11-b26d-62ec1c6b4de3")
+		)
+		(pin "7"
+			(uuid "52c169a0-fd5c-43a9-928d-b3bc2493e850")
+		)
+		(instances
+			(project ""
+				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at -403.86 16.51 270)
 		(unit 1)
@@ -4393,7 +5847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a4c0ef2-bffd-465e-b73b-ce6b16c59713")
-		(property "Reference" "SW_High_Level"
+		(property "Reference" "SW2"
 			(at -343.916 50.292 90)
 			(effects
 				(font
@@ -4411,7 +5865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
 			(at -342.9 31.75 0)
 			(effects
 				(font
@@ -4447,7 +5901,7 @@
 		(instances
 			(project "Audio_Test"
 				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
-					(reference "SW_High_Level")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6494,6 +7948,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio:ES9039Q2M")
+		(at 62.23 73.66 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96532954-5e86-496f-b354-98644cf818d1")
+		(property "Reference" "U2"
+			(at 62.23 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "d791b108-8d3d-417f-abc7-cf0f31a6dd69")
+		)
+		(pin "13"
+			(uuid "67b8097a-d150-4104-9179-2001c0771b31")
+		)
+		(pin "25"
+			(uuid "7446ea33-9f29-4101-a559-354015633229")
+		)
+		(pin "23"
+			(uuid "7efd0db8-bc66-48f0-aae6-b1be5d2adef6")
+		)
+		(pin "31"
+			(uuid "945c6741-96db-465d-ba61-e4a315889265")
+		)
+		(pin "29"
+			(uuid "cf8c02d2-f35e-4c82-95aa-ddae8ad3a9fb")
+		)
+		(pin "15"
+			(uuid "944a21f5-0e0f-49d7-af2a-6fd4367e95cc")
+		)
+		(pin "30"
+			(uuid "dd59e332-d977-4fa3-995d-a26a93c34780")
+		)
+		(pin "6"
+			(uuid "84417870-06da-4c7d-b2da-c44c93860da0")
+		)
+		(pin "32"
+			(uuid "9f40262c-1789-406d-8899-a68fa820d048")
+		)
+		(pin "5"
+			(uuid "8ce77097-fb90-4930-87de-a29ad0937356")
+		)
+		(pin "1"
+			(uuid "29f184dd-cb5e-498f-ba8f-bad816046ba5")
+		)
+		(pin "20"
+			(uuid "34af85a0-73a2-45fa-abdf-39e6fb587bbf")
+		)
+		(pin "12"
+			(uuid "14b8b625-2f2d-41d2-b90b-5d2cebf92d22")
+		)
+		(pin "19"
+			(uuid "d9872cfb-9a17-454e-a1a5-156613ceb9f1")
+		)
+		(pin "10"
+			(uuid "0cc7e853-8c82-433a-9fb6-8e1aa3c263e9")
+		)
+		(pin "8"
+			(uuid "d25f4285-88a0-4b5c-9008-65b4855857b6")
+		)
+		(pin "9"
+			(uuid "0632d49b-64bf-43ee-bb6a-01c0e6b408f8")
+		)
+		(pin "17"
+			(uuid "53240056-17e5-4b6a-aa6e-49c23621c496")
+		)
+		(pin "33"
+			(uuid "a8380d65-7f39-46b7-84c1-34d2a5cf63cc")
+		)
+		(pin "4"
+			(uuid "eccce5ad-3856-40bc-b41d-83839694e46d")
+		)
+		(pin "18"
+			(uuid "981dc72b-2a1c-49d2-b76f-f206b2c8dcf7")
+		)
+		(pin "11"
+			(uuid "be654210-1f99-4178-80e7-f1a137577272")
+		)
+		(pin "16"
+			(uuid "e65d80cf-4b1c-4e8a-b3b4-08ec17bc9db0")
+		)
+		(pin "14"
+			(uuid "f1934bd3-63de-402f-a11c-09d36a4ee440")
+		)
+		(pin "27"
+			(uuid "57c76688-9933-4aa9-ac86-e2e0833fb2e0")
+		)
+		(pin "26"
+			(uuid "35ba9102-29f7-421e-9456-743dd06b1ca9")
+		)
+		(pin "24"
+			(uuid "2266a57c-561c-4407-81e0-f8c8b7b8e0bb")
+		)
+		(pin "22"
+			(uuid "8c1f688a-a64a-4b7d-87fd-6c2990dc64ff")
+		)
+		(pin "21"
+			(uuid "e8180ea1-64ff-4ba4-9d0c-827f47ec4419")
+		)
+		(pin "3"
+			(uuid "14fd9e72-8515-4513-aad0-207137fce189")
+		)
+		(pin "2"
+			(uuid "71fc2062-891f-4a11-b26d-62ec1c6b4de4")
+		)
+		(pin "7"
+			(uuid "52c169a0-fd5c-43a9-928d-b3bc2493e851")
+		)
+		(instances
+			(project ""
+				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at -339.09 151.13 0)
 		(unit 1)
@@ -7406,7 +9020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2688ab8-f7ff-4e3a-9972-641244bf3c0d")
-		(property "Reference" "SW_Low_Level"
+		(property "Reference" "SW1"
 			(at -325.628 26.924 90)
 			(effects
 				(font
@@ -7424,7 +9038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
 			(at -332.74 26.67 0)
 			(effects
 				(font
@@ -7460,7 +9074,7 @@
 		(instances
 			(project ""
 				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
-					(reference "SW_Low_Level")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7555,6 +9169,240 @@
 			(project ""
 				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS74801DRC")
+		(at 210.82 -38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0fd376-0b00-4e31-95bf-e94a5ec4d4c8")
+		(property "Reference" "U3"
+			(at 212.9633 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS74801DRC"
+			(at 212.9633 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+			(at 210.82 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps74801.pdf"
+			(at 210.82 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments 1.5A, Low-Dropout Linear Regulator With Programmable Soft-Start, 0.8-5.5Vin, 2.7-6.0Vbias, 0.8-3.6Vout"
+			(at 210.82 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "804d7dcd-b473-4543-a329-c4ca946746ac")
+		)
+		(pin "1"
+			(uuid "bae8ed4f-6e38-4c6b-ac5f-ea82b088105f")
+		)
+		(pin "2"
+			(uuid "41391fa0-34f5-48f1-bd74-3d201d70f984")
+		)
+		(pin "5"
+			(uuid "7199e785-00c7-4735-abf1-3d375afabd1a")
+		)
+		(pin "7"
+			(uuid "dedc58f3-655a-4ac0-971d-bb2f5204b381")
+		)
+		(pin "11"
+			(uuid "4e6428b9-6344-46f5-a557-d406904288be")
+		)
+		(pin "9"
+			(uuid "795f0837-39ed-40ff-8fbb-2189daa5ec47")
+		)
+		(pin "10"
+			(uuid "cdac24e2-b9e3-4a20-9f38-25c0f4a08e05")
+		)
+		(pin "3"
+			(uuid "e9591780-de75-4ada-aa01-450c75686d34")
+		)
+		(pin "8"
+			(uuid "7609a8c1-8e6a-4968-bcdc-08d113edbdf5")
+		)
+		(pin "6"
+			(uuid "1d9ba5d8-a24a-4616-9dde-4066d7cd2aa9")
+		)
+		(instances
+			(project ""
+				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_Converter_2026-03-10:SY8368QNC")
+		(at 124.46 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cba07579-d1f7-4282-a7c0-9a8f501dcac3")
+		(property "Reference" "U5"
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProPrj_Converter_2026-03-10:QFN-10_L3.0-W3.0-P0.45-TL_SILERGY"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SY8368QNC/137177.html"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SY8368QNC"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Silergy(矽力杰)"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C125897"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "高效同步降压DC-DC调节器"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0554e082-bb7f-4248-af6a-a58cc530d5d5")
+		)
+		(pin "7"
+			(uuid "0d1ec160-3c0b-4860-806d-3dd1223db434")
+		)
+		(pin "6"
+			(uuid "b2ebc2dc-4821-4a97-888b-0bb12693fa18")
+		)
+		(pin "3"
+			(uuid "1c87b8f9-40bc-4c47-a6e7-c438c4c83e69")
+		)
+		(pin "9"
+			(uuid "7fe39f5d-3695-4124-bfa5-46bb2ae0574a")
+		)
+		(pin "1"
+			(uuid "ef9ec64d-0138-4787-938b-789ad3b5d261")
+		)
+		(pin "5"
+			(uuid "12bbb2e7-a561-4450-9661-455051a3edcb")
+		)
+		(pin "10"
+			(uuid "74cb19c4-e742-4f37-8c2e-2fda6c88fc85")
+		)
+		(pin "4"
+			(uuid "64b20956-b37a-4f9a-99a1-3e6f85d737ea")
+		)
+		(pin "2"
+			(uuid "966a6fe8-9fa6-4f34-9c4a-251f245ffc26")
+		)
+		(instances
+			(project ""
+				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8130,6 +9978,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio:ES9039Q2M")
+		(at 59.69 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee4283cd-9b7c-4c11-86dc-0d1b489f8138")
+		(property "Reference" "U2"
+			(at 59.436 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 59.436 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "d791b108-8d3d-417f-abc7-cf0f31a6dd6a")
+		)
+		(pin "13"
+			(uuid "67b8097a-d150-4104-9179-2001c0771b32")
+		)
+		(pin "25"
+			(uuid "7446ea33-9f29-4101-a559-35401563322a")
+		)
+		(pin "23"
+			(uuid "7efd0db8-bc66-48f0-aae6-b1be5d2adef7")
+		)
+		(pin "31"
+			(uuid "945c6741-96db-465d-ba61-e4a315889266")
+		)
+		(pin "29"
+			(uuid "cf8c02d2-f35e-4c82-95aa-ddae8ad3a9fc")
+		)
+		(pin "15"
+			(uuid "944a21f5-0e0f-49d7-af2a-6fd4367e95cd")
+		)
+		(pin "30"
+			(uuid "dd59e332-d977-4fa3-995d-a26a93c34781")
+		)
+		(pin "6"
+			(uuid "84417870-06da-4c7d-b2da-c44c93860da1")
+		)
+		(pin "32"
+			(uuid "9f40262c-1789-406d-8899-a68fa820d049")
+		)
+		(pin "5"
+			(uuid "8ce77097-fb90-4930-87de-a29ad0937357")
+		)
+		(pin "1"
+			(uuid "29f184dd-cb5e-498f-ba8f-bad816046ba6")
+		)
+		(pin "20"
+			(uuid "34af85a0-73a2-45fa-abdf-39e6fb587bc0")
+		)
+		(pin "12"
+			(uuid "14b8b625-2f2d-41d2-b90b-5d2cebf92d23")
+		)
+		(pin "19"
+			(uuid "d9872cfb-9a17-454e-a1a5-156613ceb9f2")
+		)
+		(pin "10"
+			(uuid "0cc7e853-8c82-433a-9fb6-8e1aa3c263ea")
+		)
+		(pin "8"
+			(uuid "d25f4285-88a0-4b5c-9008-65b4855857b7")
+		)
+		(pin "9"
+			(uuid "0632d49b-64bf-43ee-bb6a-01c0e6b408f9")
+		)
+		(pin "17"
+			(uuid "53240056-17e5-4b6a-aa6e-49c23621c497")
+		)
+		(pin "33"
+			(uuid "a8380d65-7f39-46b7-84c1-34d2a5cf63cd")
+		)
+		(pin "4"
+			(uuid "eccce5ad-3856-40bc-b41d-83839694e46e")
+		)
+		(pin "18"
+			(uuid "981dc72b-2a1c-49d2-b76f-f206b2c8dcf8")
+		)
+		(pin "11"
+			(uuid "be654210-1f99-4178-80e7-f1a137577273")
+		)
+		(pin "16"
+			(uuid "e65d80cf-4b1c-4e8a-b3b4-08ec17bc9db1")
+		)
+		(pin "14"
+			(uuid "f1934bd3-63de-402f-a11c-09d36a4ee441")
+		)
+		(pin "27"
+			(uuid "57c76688-9933-4aa9-ac86-e2e0833fb2e1")
+		)
+		(pin "26"
+			(uuid "35ba9102-29f7-421e-9456-743dd06b1caa")
+		)
+		(pin "24"
+			(uuid "2266a57c-561c-4407-81e0-f8c8b7b8e0bc")
+		)
+		(pin "22"
+			(uuid "8c1f688a-a64a-4b7d-87fd-6c2990dc6500")
+		)
+		(pin "21"
+			(uuid "e8180ea1-64ff-4ba4-9d0c-827f47ec441a")
+		)
+		(pin "3"
+			(uuid "14fd9e72-8515-4513-aad0-207137fce18a")
+		)
+		(pin "2"
+			(uuid "71fc2062-891f-4a11-b26d-62ec1c6b4de5")
+		)
+		(pin "7"
+			(uuid "52c169a0-fd5c-43a9-928d-b3bc2493e852")
+		)
+		(instances
+			(project ""
+				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at -255.27 -41.91 90)
 		(unit 1)
@@ -8392,6 +10400,103 @@
 			(project "Audio_Test"
 				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS74801DRC")
+		(at 210.82 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f43143a1-39bc-4a7a-a8a0-58c180a562e5")
+		(property "Reference" "U4"
+			(at 212.9633 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS74801DRC"
+			(at 212.9633 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps74801.pdf"
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments 1.5A, Low-Dropout Linear Regulator With Programmable Soft-Start, 0.8-5.5Vin, 2.7-6.0Vbias, 0.8-3.6Vout"
+			(at 210.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c216863-0252-4b70-9609-24ad1550d08a")
+		)
+		(pin "2"
+			(uuid "fe2ff5c1-d4b2-451d-bece-bcadb2e91687")
+		)
+		(pin "7"
+			(uuid "28a8eed5-936d-47af-b7a9-37f7839e3ebd")
+		)
+		(pin "6"
+			(uuid "f11f413c-cb90-40e9-be4d-3c3d7693dd86")
+		)
+		(pin "5"
+			(uuid "1bc75e60-e9a4-4f25-9d5f-d17a5fe57c5c")
+		)
+		(pin "9"
+			(uuid "e2ea2d21-2ddf-4bef-b93e-f4026cd770e4")
+		)
+		(pin "8"
+			(uuid "26089f3a-6056-4dd5-a9ad-1e4a34888b7a")
+		)
+		(pin "4"
+			(uuid "919c4966-b7f5-4a95-b77a-e60f1d1e3658")
+		)
+		(pin "11"
+			(uuid "1f7a05a3-c8b4-428e-89d9-18d2f1fe34fb")
+		)
+		(pin "3"
+			(uuid "abdae546-d619-45f7-9618-f5397dc67e12")
+		)
+		(pin "10"
+			(uuid "2f43ac7e-aaae-4a90-9968-72e9ff94c30a")
+		)
+		(instances
+			(project ""
+				(path "/c78f527e-50e7-4d88-85be-617fff285b50"
+					(reference "U4")
 					(unit 1)
 				)
 			)
